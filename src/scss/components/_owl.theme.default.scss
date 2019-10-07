@@ -1,0 +1,57 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-nav [class*=owl-] {
+    color: #5e5d5c;
+    font-size: 16px;
+    margin: 5px;
+    padding: 9px 15px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 0;
+    border: 1px solid #dadada;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    &:hover {
+      border: 1px solid #0049b0;
+    }
+  }
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      background: transparent;
+      color: #0049b0;
+      text-decoration: none; }
+  .owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-theme .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 50%; }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      width: 77px;
+      height: 77px;
+      border: 2px solid #0049b0;
+    }

@@ -1,0 +1,319 @@
+@media (min-width: 1200px){ 
+
+}
+
+@media (max-width: 1199px) {
+
+    .header-top {
+        padding: 31px 0 10px 0;
+        margin-bottom: 10px;
+      }
+    
+
+    .header-search {
+        margin-top: 4px;
+    }
+
+
+    .header-logo img {
+        max-width: 172px;
+    }
+
+    .hidden-hamburger {
+        display: block;
+    }
+
+    .header-nav {
+        background-color: transparent;
+      }
+    
+    .mobile-nav-menu {
+      display: none;
+      .nav {
+          flex-direction: column;
+          li a {
+            text-align: left;
+            padding: 13px 20px;
+            background: #f4f5f7;
+            border-bottom: 1px solid #ffffff;
+            &:hover {
+              background: #f4f5f7;
+            }
+          }
+        }
+      }
+
+.buttons {
+    padding: 45px 0 20px;
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin: 16px 0 0;
+        max-width: 719px;
+    }
+}
+
+.inputs {
+    padding: 34px 0 20px;
+    &-wrap {
+        display: flex;
+        justify-content: space-between;
+        max-width: 638px;
+        margin: 18px 0 0;
+    }
+}
+
+
+.rating {
+    padding: 10px 0 20px;
+}
+
+.carousel {
+    margin: 29px 0 53px;
+
+}
+
+.owl-carousel {
+    max-width: 613px;
+}
+
+.owl-carousel .owl-prev {
+    top: 105px;
+    left: -71px;
+}
+
+.owl-carousel .owl-next {
+    top: 104px;
+    right: -74px;
+}
+
+.carousel__item {
+    &-img {
+        top: 24px;
+        left: 20px;
+        width: 190px;
+        height: 190px;
+        }
+    }
+
+.footer__title-soc h4 {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 47px;
+    a {
+        margin-right: 14px;
+    }
+}
+   
+}
+
+@media (max-width: 769px) {
+.hidden-search-icon {
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 30px;
+}
+
+.header-search {
+    display: none;
+    background: #f4f5f7;
+}
+
+.search-toogle {
+    background: #f4f5f7;
+    padding: 10px;
+    button {
+        height: 34px;
+        top: 1px;
+        right: 1px;
+        padding: 5px 28px;
+        border-radius: 1px;
+    }
+}
+
+.header-logo {
+    text-align: center;
+}
+  
+.buttons-wrap {
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    button {
+        margin: 20px 21px 0 10px;  
+    }
+}
+
+.inputs {
+    padding: 30px 0 20px;
+    &-wrap {
+        flex-direction: column;
+    }
+}
+
+.carousel {
+    margin: 4px 0;
+}
+
+.carousel__item-img {
+    top: 0;
+    left: 0;
+    margin: 25px auto 0;
+    position: relative;
+}
+
+.carousel__item-info {
+    max-width: 100%;
+    padding: 16px 17px 0 11px;
+    line-height: 24px;
+    h3 {
+        margin: 0;
+    }
+    span {
+        margin: 16px 0;
+        display: block;
+    }
+}
+
+.owl-carousel .owl-dot {
+    width: 60px;
+    height: 60px;
+    margin: 20px 7px 50px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    width: 60px;
+    height: 60px;
+}
+
+.owl-carousel .owl-dots {
+    margin: 5px auto 0;
+}
+
+.owl-nav {
+    display: none;
+    }
+
+.footer__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+    margin: 0 25px 0 17px;
+    h4 {
+        font-size: 14px;
+    }
+    span {
+        display: block;
+    }
+}
+    
+.footer__social {
+    margin-bottom: 37px;
+}
+    
+i.fa-chevron-down {
+    color: black;
+}
+      
+.footer__link {
+    display: flex;
+    flex-direction: column;
+    a {
+        margin-left: 37px;
+        line-height: 48px;
+        }
+    }
+
+}
+
+
+@media (max-width: 480px) {
+.header-top {
+    padding: 13px 0 10px 0;
+}
+
+.header-top:after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #f4f5f7;
+    top: 64px;
+}
+
+.hidden-search-icon {
+    top: 20px;
+}
+
+
+.search-icon {
+    padding: 0;
+}
+
+.buttons {
+    padding: 2px 0 20px;
+}
+
+.buttons-wrap {
+    margin: 0;
+}
+
+.inputs {
+    padding: 2px 0 3px;
+}
+
+.inputs-wrap {
+    margin: 0;
+}
+
+.rating {
+    padding-bottom: 0;
+}
+
+.rating-wrap {
+    align-items: flex-start;
+}
+
+.rating-box-check {
+    margin-top: 0; 
+}
+
+.star-group {
+    margin-right: 20px;
+}
+
+.star-group>input+label {
+    text-indent: 10001px;
+}
+
+.carousel {
+    margin: 23px 0 50px;
+}
+
+.owl-carousel {
+    margin: 14px auto 0;
+}
+
+.owl-carousel .owl-dot {
+    margin-bottom:0;
+}
+
+.carousel__item {
+    margin: 0;
+}
+
+.footer {
+    padding: 20px 0 0;
+  }
+  
+
+
+
+
+}
